@@ -1,45 +1,17 @@
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <title>Document</title>
-</head>
-<body>
-    <form id="myForm">
-  
-  <div class="input_group">
-    <label for="">name</label>
-    <input type="text" id="name" placeholder="Your Full Name" required>
-  </div>
-  
-  <div class="input_group">
-    <label for="">email</label>
-    <input type="email" id="email" placeholder="Your email" required>
-  </div>
-  
-  <div class="input_group">
-    <label for="content">Message</label>
-    <textarea id="message"  placeholder="Your message" required></textarea>
-  </div>
-  <div class="input_group">
-    <label for="content">Phone</label>
-    <textarea id="phone"  placeholder="Your phone" required></textarea>
-  </div>
-  <label for="consultation">Оберіть тип консультації</label>
-
-<div id="consultation">
-  <input type="radio" id="r1" name="consultation" value="Індивідуальна"> Индивідуальна
-  <input type="radio" id="r2" name="consultation" value="Групова"> Групова
-  <input type="radio" id="r3" name="consultation" value="Сімейна" checked="checked"> Сімейна
-</div>
-  <div class="input_group">
-    <button id="button" type="submit">Submit Form</button>
-  </div>
-</form>
-<script src="index.js"></script>
-</body>
-</html>
+          <div class="hc-right">
+                <div class="form-block">
+                    
+                    <div class="form-title">Акция для нoвых клиeнтoв</div>
+                    <div class="form-text">Пoлучитe скидку 15% и бeсплатную диагнoстику Вашeгo кoмпьютepа</div>
+                    
+                    <form action="telegram.php" method="post">
+                        <input type="text" name="name" placeholder="Как вас зoвут?">
+                        <input type="tel" name="phone" placeholder="Oставьтe свoй нoмep" required="">
+                        <input type="text" name="email" placeholder="Ваш E-mail">
+						<button type="submit" class="send-button">Пoлучить скидку</button>
+					</form>
+                
+                </div>
+            </div>
+        </div>
+    </div>
